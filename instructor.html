@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Instructor Information</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+  <style>
+    /* Navbar link hover effect */
+    .navbar-nav .nav-link:hover {
+      background-color: #f8f9fa; /* Light grey background on hover */
+      color: #301934; /* Dark purple for text */
+      border-radius: 5px;
+      transition: background-color 0.3s, color 0.3s;
+    }
+
+    /* Cute and aesthetic button styles */
+    .btn-cute {
+      display: inline-block;
+      background-color: #fddde6; /* Light pink background */
+      color: #301934; /* Dark purple text color */
+      padding: 10px 20px;
+      border-radius: 25px;
+      border: 2px solid #f8bcd0; /* Soft border */
+      text-decoration: none;
+      font-weight: bold;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Soft shadow for depth */
+      transition: background-color 0.3s ease, box-shadow 0.3s ease, color 0.3s ease;
+    }
+
+    .btn-cute:hover {
+      background-color: #f8bcd0; /* Darker pink on hover */
+      color: white; /* White text on hover */
+      box-shadow: 0 6px 8px rgba(0, 0, 0, 0.2); /* Bigger shadow on hover */
+    }
+
+    /* Custom container styling */
+    .container h2 {
+      text-align: center;
+      color: #301934; /* Dark purple heading */
+      margin-bottom: 20px;
+    }
+
+    .section {
+      padding: 60px 0;
+    }
+
+    .jumbotron {
+      background-color: #f8f9fa;
+    }
+  </style>
+</head>
+<body>
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">Course Portfolio</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="lab-exercises.html">Lab Exercises</a></li>
+          <li class="nav-item"><a class="nav-link" href="resources.html">Resources</a></li>
+          <li class="nav-item"><a class="nav-link active" href="#">Instructor</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Instructor Information -->
+  <div class="container mt-4">
+    <h1>Instructor Information</h1>
+    <div class="row">
+      <div class="col-md-4">
+        <!-- Replace 'your-picture.jpg' with the path to your picture -->
+        <img src="C:\Users\xXMal\Desktop\302\Teacher.jpg" class="img-fluid rounded-circle" alt="Instructor Picture">
+      </div>
+      <div class="col-md-8">
+        <p>Professor Anette Daligcon is a dedicated educator within the IT&IS Department that teaches programming and databases.</p>
+       
+        <a href="https://www.facebook.com/anette.daligcon" class="btn-cute">View My Profile</a>
+
+        <!-- Contact Details -->
+        <h5 class="mt-4">Contact Details</h5>
+        <p>Email: <a href="anette.daligcon@gmail.com">anette.daligcon@gmail.com</a></p>
+        <p>Phone: <a href="+639-18-326-6832">+639-18-326-6832</a></p>
+        <p>Office Hours: Monday - Friday, 7 AM - 5 PM</p>
+        <p>Office Location: IT & IS Department - SV Building, Adamson University</p>
+      </div>
+    </div>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Resources</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+  <style>
+    /* Hover effect for navbar links */
+    .navbar-nav .nav-link:hover {
+      background-color: #f8f9fa; /* Light grey background on hover */
+      color: #301934; /* Dark purple for text */
+      border-radius: 5px; /* Rounded corners for smoother look */
+      transition: background-color 0.3s, color 0.3s; /* Smooth transition */
+    }
+
+    /* Cute and aesthetic button styles for links */
+    .custom-btn {
+      display: inline-block;
+      background-color: #f4e1f2; /* Light pastel background */
+      color: #301934; /* Dark purple text color */
+      padding: 10px 20px; /* Button padding */
+      border-radius: 25px; /* Fully rounded corners */
+      border: 2px solid #e0c3df; /* Subtle border for a soft look */
+      text-decoration: none; /* Remove underline */
+      font-weight: bold; /* Bold text */
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Soft shadow for depth */
+      transition: background-color 0.3s ease, box-shadow 0.3s ease, color 0.3s ease;
+    }
+
+    .custom-btn:hover {
+      background-color: #e0c3df; /* Darker pastel on hover */
+      box-shadow: 0 6px 8px rgba(0, 0, 0, 0.2); /* Bigger shadow on hover */
+      color: #fff; /* White text on hover */
+    }
+
+    /* Custom container styling */
+    .container h2 {
+      text-align: center;
+      color: #301934; /* Dark purple heading */
+      margin-bottom: 20px;
+    }
+  </style>
+</head>
+<body>
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">Course Portfolio</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="lab-exercises.html">Lab Exercises</a></li>
+          <li class="nav-item"><a class="nav-link active" href="#">Resources</a></li>
+          <li class="nav-item"><a class="nav-link" href="instructor.html">Instructor</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Resources -->
+  <div class="container mt-4">
+    <h2>Resources</h2>
+    <div class="row">
+      <div class="col-md-6">
+        <h5>Textbooks</h5>
+        <ul>
+          <li><a href="https://automatetheboringstuff.com" class="custom-btn">Book about Programming</a></li>
+          <li><a href="https://eloquentjavascript.net" class="custom-btn">Book about Web Development</a></li>
+        </ul>
+      </div>
+      <div class="col-md-6">
+        <h5>Articles</h5>
+        <ul>
+          <li><a href="https://www.codecademy.com/?g_network=g&g_productchannel=&g_adid=624888211332&g_locinterest=&g_keyword=codecademy&g_acctid=243-039-7011&g_adtype=&g_keywordid=kwd-296880846182&g_ifcreative=&g_campaign=account&g_locphysical=1011182&g_adgroupid=128133970988&g_productid=&g_source={sourceid}&g_merchantid=&g_placement=&g_partition=&g_campaignid=12575778360&g_ifproduct=&utm_id=t_kwd-296880846182:ag_128133970988:cp_12575778360:n_g:d_c&utm_source=google&utm_medium=paid-search&utm_term=codecademy&utm_campaign=INTL_Brand_Phrase&utm_content=624888211332&g_adtype=search&g_acctid=243-039-7011&gad_source=1&gclid=Cj0KCQjwo8S3BhDeARIsAFRmkOMRlGE2i-3ydsdO4JoGyT7g9qd5wtl1AjoNQ3cUsZCUAze_LO6V0bIaArE3EALw_wcB" class="custom-btn">Article 1</a></li>
+          <li><a href="https://mobolajiolamide.hashnode.dev/introduction-to-web-development-a-beginners-guide" class="custom-btn">Article 2</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
